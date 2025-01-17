@@ -86,6 +86,18 @@
 teams{
    align-items: center;
 }
+.facts-container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+/* some fact related styles */
+.fact-card{
+   border: 1px solid #ff900e;
+   width: 240px;
+   height: 240px;
+   border-radius: 8px;
+}
 
 @media screen and (max-width: 576px) {
    .navbar, .nav-links{
