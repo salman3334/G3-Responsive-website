@@ -72,11 +72,18 @@
    border: none;
 }
 
+.main{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
 .banner-image{
    width: 100%;
 }
 
-
+teams{
+   align-items: center;
+}
 
 @media screen and (max-width: 576px) {
    .navbar, .nav-links{
