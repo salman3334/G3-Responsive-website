@@ -89,6 +89,7 @@ teams{
 .facts-container{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
+   gap: 24px;
 }
 
 /* some fact related styles */
@@ -97,6 +98,20 @@ teams{
    width: 240px;
    height: 240px;
    border-radius: 8px;
+}
+
+.sponsor-info{
+   max-width: 540px;
+   margin: 50px auto;
+   text-align: center;
+}
+.sponsors-companies{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsors-companies img{
+   filter: grayscale(100%);
 }
 
 @media screen and (max-width: 576px) {
