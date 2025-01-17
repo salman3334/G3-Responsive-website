@@ -49,7 +49,10 @@
    font-size: 3rem;
    
 }
-
+.section-title{
+   font-weight: 700;
+   font-size: 4rem;
+}
 .banner-content{
    max-width: 850px;
    margin: 0 auto;
@@ -57,10 +60,7 @@
    margin-bottom: 50px;
 }
 
-.banner-title{
-   font-weight: 700;
-   font-size: 4rem;
-}
+
 
 .btn-primary{
    background-color: #ff900e;
@@ -71,7 +71,9 @@
    border-radius: 8px;
    border: none;
 }
-
+  .text-primary{
+   color: #ff900e;
+  }
 .main{
    max-width: 1440px;
    margin: 0 auto;
@@ -87,6 +89,12 @@ teams{
 
 @media screen and (max-width: 576px) {
    .navbar, .nav-links{
+      flex-direction: column;
+   }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+   .teams{
       flex-direction: column;
    }
 }
